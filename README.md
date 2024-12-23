@@ -8,17 +8,21 @@ Sebelum memulai, pastikan Anda memiliki perangkat lunak berikut diinstal di sist
 
 - [Node.js](https://nodejs.org/) (versi 20)
 - [Yarn](https://yarnpkg.com/) (versi terbaru)
-- [WSL (Windows Subsystem for Linux) https://learn.microsoft.com/en-us/windows/wsl/install] 
+- [WSL (Windows Subsystem for Linux) https://learn.microsoft.com/en-us/windows/wsl/install]
+- [IC SDK https://internetcomputer.org/docs/current/developer-docs/getting-started/quickstart/first-smart-contract]
 
 ## Instalasi dan Running Aplication
 
-1. **Clone repositori**
+1. **Jalankan WSL pada windows**
+2. **Clone repositori**
    ```bash
    git clone https://github.com/AeternumTeam/aeternum-icp.git aeternum-icp
-2. **Install depecencies**
+   ```
+3. **Install depecencies**
    ```bash
    yarn install
-3. **Jalankan Aplikasi**
+   ```
+4. **Jalankan Aplikasi**
    ```bash
    dfx start --clean
    ```
